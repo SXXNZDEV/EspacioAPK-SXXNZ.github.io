@@ -13,6 +13,6 @@ public class Suma {
 
     public void codigo(){}
 
-    public void si(){}
+    public void no(){}
 
 }
