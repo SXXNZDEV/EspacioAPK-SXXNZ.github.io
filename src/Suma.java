@@ -11,7 +11,7 @@ public class Suma {
         return a + b;
     }
 
-    public void codigo(){}
+    public void nocodigo(){}
 
     public void no(){}
 
