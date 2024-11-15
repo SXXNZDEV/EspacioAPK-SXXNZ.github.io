@@ -1,6 +1,10 @@
+import javax.swing.*;
+
 public class Suma {
     public static void main(String[] args) {
-        System.out.println(suma(10, 20));
+        int numOne = Integer.parseInt(JOptionPane.showInputDialog(null, "Numero 1: "));
+        int numTwo = Integer.parseInt(JOptionPane.showInputDialog(null, "Numero 2: "));
+        JOptionPane.showMessageDialog(null, "La suma de " + numOne + " + " + numTwo + " = " + suma(numOne, numTwo));
     }
 
     public static int suma(int a, int b) {
