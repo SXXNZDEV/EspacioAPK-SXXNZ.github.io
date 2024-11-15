@@ -15,4 +15,6 @@ public class Suma {
 
     public void no(){}
 
+    public void newMetodo() {}
+
 }
